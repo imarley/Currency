@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.WindowsService", "Marley.Currency.WindowsService\Marley.Currency.WindowsService.csproj", "{EEDF471E-86C1-4352-AFB6-85F4B0822691}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170} = {D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.Data", "Marley.Currency.Data\Marley.Currency.Data.csproj", "{201207E5-9E79-4C5D-B5DA-0907BE6EFB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.Domain", "Marley.Currency.Domain\Marley.Currency.Domain.csproj", "{C2ACA969-1E8B-4F69-925D-C92FDF237FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.Wcf", "Marley.Currency.Wcf\Marley.Currency.Wcf.csproj", "{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.Mvc", "Marley.Currency.Mvc\Marley.Currency.Mvc.csproj", "{0CAA576E-E5E0-4D0D-8F7A-2EF9E7F008B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marley.Currency.CrossCutting", "Marley.Currency.CrossCutting\Marley.Currency.CrossCutting.csproj", "{3790C716-9537-4000-9605-E9374D4D25BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDF471E-86C1-4352-AFB6-85F4B0822691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDF471E-86C1-4352-AFB6-85F4B0822691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDF471E-86C1-4352-AFB6-85F4B0822691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDF471E-86C1-4352-AFB6-85F4B0822691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201207E5-9E79-4C5D-B5DA-0907BE6EFB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201207E5-9E79-4C5D-B5DA-0907BE6EFB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201207E5-9E79-4C5D-B5DA-0907BE6EFB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201207E5-9E79-4C5D-B5DA-0907BE6EFB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2ACA969-1E8B-4F69-925D-C92FDF237FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2ACA969-1E8B-4F69-925D-C92FDF237FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2ACA969-1E8B-4F69-925D-C92FDF237FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2ACA969-1E8B-4F69-925D-C92FDF237FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66F34B5-9895-4CE9-B3F1-A7D7FCDEC170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAA576E-E5E0-4D0D-8F7A-2EF9E7F008B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAA576E-E5E0-4D0D-8F7A-2EF9E7F008B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAA576E-E5E0-4D0D-8F7A-2EF9E7F008B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAA576E-E5E0-4D0D-8F7A-2EF9E7F008B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3790C716-9537-4000-9605-E9374D4D25BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3790C716-9537-4000-9605-E9374D4D25BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3790C716-9537-4000-9605-E9374D4D25BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3790C716-9537-4000-9605-E9374D4D25BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
